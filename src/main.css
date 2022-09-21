@@ -22,6 +22,11 @@ a:hover, a:visited a:active, a{
     padding-top:10px;
     padding-bottom:10px;
 }
+.bgwnb{
+    background-color: white;
+    padding-top:10px;
+    padding-bottom: 1px ;
+}
 .mt{
     margin-top: 10px;
 }
