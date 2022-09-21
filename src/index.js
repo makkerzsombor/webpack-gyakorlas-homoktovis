@@ -3,10 +3,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './main.css'
 
 
-function getalert() {
-    window.alert('itt jó');
+function szinvalt() {
+    document.getElementById('cimsor').style.color = document.getElementById('szinrgb').value;
 }
 function init() {
-    document.getElementById('szinvalto').addEventListener('click',getalert)
+    document.getElementById('szinvalto').addEventListener('click',szinvalt)
 }
-document.addEventListener("DOMContentloaded",init);
+
+document.addEventListener('DOMContentLoaded',init);
