@@ -8,7 +8,8 @@ h1{
 }
 h2{
     background-color: #ffa500;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-top:10px;
     margin-bottom: 0px;
 }
@@ -50,4 +51,13 @@ li{
 .bigp{
     font-size: 30px;
     font-weight: bold;
+}
+.plent{
+    padding-bottom: 10px;
+}
+.kep{
+    width: 300px;
+}
+.mfent{
+    margin-top:10px;
 }
