@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homoktövis</title>
     <link rel="stylesheet" href="dist/main.css">
-    <script src="dist/index.js"></script>
+    <script src="dist/main.js"></script>
 </head>
 <body>
 
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="container text-center">Homoktövis</h1>
+                <h1 class="container text-center" id="cimsor">Homoktövis</h1>
                 <div class="container text-center bgw">
                     <a href="kezdolap.html">Homoktövis</a>
                     <a target="_blank" href="egesz.html">Egészségügyi hatásai</a>
@@ -56,14 +56,13 @@
 
     <div class="container mfent">
         <div class="row">
-            <div class="col-md-3"> <a id="bogyo" href="" title="bogyó" ><img class="kep" src="./images/homoktovis_bogyos.jpg" alt=""></a> </div>
-            <div class="col-md-3"> <a id="parlat" href="" title="párlat"><img  class="kep" src="./images/homoktovis_parlat.png" alt=""></div></a> 
-            <div class="col-md-3"> <a id="szbo" href="" title="szárítottbogyó"><img  class="kep" src="./images/homoktovis_szaritottbogyo.jpg" alt=""></a></div>
-            <div class="col-md-3"> <a id="szle" href="" title="szárítottlemeny"><img class="kep" src="./images/homoktovis_szaritottorlemeny.jpg" alt=""></a></div>
+            <div class="col-md-3"> <a id="bogyo" href="#bogyo" title="bogyó" ><img class="kep" src="./images/homoktovis_bogyos.jpg" alt=""></a> </div>
+            <div class="col-md-3"> <a id="parlat" href="#parlat" title="párlat"><img  class="kep" src="./images/homoktovis_parlat.png" alt=""></div></a> 
+            <div class="col-md-3"> <a id="szbo" href="#szbo" title="szárítottbogyó"><img  class="kep" src="./images/homoktovis_szaritottbogyo.jpg" alt=""></a></div>
+            <div class="col-md-3"> <a id="szle" href="#szle" title="szárítottlemeny"><img class="kep" src="./images/homoktovis_szaritottorlemeny.jpg" alt=""></a></div>
         </div>
     </div>
-
-
+    
     <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -103,6 +102,12 @@
                     <p><b>Az oldal forrása: </b>megtekintéséhez kattintson <a target="_blank" href="http://www.hazipatika.com/eletmod/termeszetes_gyogymodok/cikkek/homoktovis_a_csodanoveny/20121212113454">ide</a>!</p>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container text-center sarga mt ">
+        <div>
+            <label>Szinváltás: </label><input id="szinrgb" type="color">
+            <button id="szinvalto">Gomb</button>
         </div>
     </div>
 </body>
