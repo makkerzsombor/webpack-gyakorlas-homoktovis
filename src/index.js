@@ -8,6 +8,5 @@ function getalert() {
 }
 function init() {
     document.getElementById('szinvalto').addEventListener('click',getalert)
-
 }
-document.addEventListener('DOMContentloaded',init);
+document.addEventListener("DOMContentloaded",init);
