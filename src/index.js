@@ -2,13 +2,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.js';
 import 'bootstrap/dist/css/bootstrap.css';
 import './main.css'
 
-let bogyoSzam = 0;
-let parlatSzam = 0;
-let szarazBogyoSzam = 0;
-let SzarazLemenySzam = 0;
 
-function init() {
-    
+function getalert() {
+    window.alert('itt jó');
 }
+function init() {
+    document.getElementById('szinvalto').addEventListener('click',getalert)
 
-document.addEventListener('DOMContentLoaded',init);
+}
+document.addEventListener('DOMContentloaded',init);
